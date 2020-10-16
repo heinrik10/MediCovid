@@ -1,0 +1,210 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F0F0F0;
+
+}
+
+
+/* MENU Principal */
+#top{
+    text-align: center;
+    height: auto;
+    background-color: #38D2CE;
+    font-family: "Trebuchet MS", sans-serif;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+#top a {
+    text-decoration: none;
+}
+
+
+#top-logo{
+    padding-right: 20px;
+    padding-left: 60px;
+    font-size: 60px;
+    color: rgba(255,255,255,1.00);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#top-menu{
+    padding-top: 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 20px;
+
+
+}
+#linguagem {
+    float: right;
+    display: block;
+    padding-left: 0px;
+    margin-left: -80px;
+}
+
+#top-menu a{
+    text-decoration: none;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#top-menu a:hover{
+    color: rgba(255,5,98,1.00);
+    border-radius: 10px;
+}
+
+#top-menu a{
+	padding: 5px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;	
+
+}
+#top #top-logo img {
+    width: 100px;
+}
+
+.vermelho{
+    color: rgba(255,5,98,1.00);
+    margin-left: -10px;
+}
+
+/* POSTAGEM PRINCIPAL */
+
+
+#areapostagem{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 920px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+
+}
+
+#postagem{
+    width: 650px;
+    float: left;
+   
+}
+#postagem h2 {
+    color: #FF0562;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.topicos_princip {
+    background-color: rgba(255,255,255,1.00);
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 1px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-right: 10px;
+}
+.topicos_princip h1 {
+    color: #FF0562;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.topicos_princip p {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+
+.postagem2{
+    float: right;
+    text-align: justify;
+
+}
+.postagem2 h3 {
+    margin-right: 0;
+    margin-left: 0;
+    /* [disabled]background-color: rgba(56,210,206,0.56); */
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    color: #FF0562;
+    text-align: center;
+}
+.recentes{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 240px;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-top: 2px;
+}
+
+#monalisa {
+    max-width: 600px;
+    padding-left: 90px;
+}
+
+
+.link {
+    color: #FF0562;
+    padding: 0px 5px;
+    text-decoration: undeline;
+}
+.link:hover {
+    color: #FFFFFF;
+    background-color: #38D2CE;
+    border-radius: 5px;
+}
+.footer_contato {
+    background-color: rgba(56,210,206,1.00);
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgba(255,255,255,1.00);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+
+}
+#footer_botao {
+    background-color: rgba(0,113,190,1.00);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    color: rgba(255,255,255,1.00);
+    border-radius: 30px;
+    text-decoration: none;
+}
+.footer_contato p {
+	font-size: small;
+}
+.footer_final {
+	color: rgba(0,0,0,1.00);
+	font-size: x-small;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+footer{
+    clear: both;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
